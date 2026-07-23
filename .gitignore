@@ -2,11 +2,10 @@
 .repochan/analysis/
 .repochan/interview/
 .repochan/persona/
-.repochan/orders/
-.repochan/web-starter/node_modules/
-.repochan/web-starter/dist/
 
 # Dependencies
+.repochan/web-starter/node_modules/
+.repochan/web-starter/dist/
 node_modules/
 target/
 
