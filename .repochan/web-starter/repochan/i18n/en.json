@@ -1,0 +1,209 @@
+{
+  "schemaVersion": "repochan.starter-content.v1",
+  "locale": "en",
+  "meta": {
+    "title": "Nexia — Cross-Server Game Companion · Real-Time Danmaku Translator",
+    "description": "Real-time in-game chat translation for League of Legends. Capture chat, translate instantly, display as danmaku overlay. Nai-nai, your cross-server translation companion."
+  },
+  "content": {
+    "routing": {
+      "lang": "en",
+      "path": "/",
+      "alternatePath": "/zh/",
+      "alternateHreflang": "zh-CN"
+    },
+    "a11y": {
+      "skip": "Skip to content",
+      "openMenu": "Open menu",
+      "closeMenu": "Close menu",
+      "brandHome": "Nexia Home",
+      "productQualities": "Nexia Features"
+    },
+    "nav": {
+      "ariaLabel": "Main navigation",
+      "repositoryLabel": "GitHub",
+      "alternateLabel": "中文",
+      "links": [
+        {
+          "label": "Features",
+          "href": "#features"
+        },
+        {
+          "label": "Usage",
+          "href": "#workflow"
+        },
+        {
+          "label": "Tech Stack",
+          "href": "#architecture"
+        },
+        {
+          "label": "Screenshots",
+          "href": "#gallery"
+        }
+      ]
+    },
+    "hero": {
+      "imageAlt": "Nai-nai waving on a game screen with danmaku translations gliding across",
+      "eyebrow": "LoL Cross-Server Companion · Real-Time Danmaku Translation",
+      "titleStart": "Play across servers.",
+      "titleAccent": "Language is no longer a wall.",
+      "body": "Nexia captures every line in your game chat, translates it in real time, and displays it as stylish danmaku gliding across your screen. No alt-tabbing to Google Translate. Stay focused. Win the game. NEXIA Expresses Cross-language Interactions Automatically.",
+      "primary": "View on GitHub",
+      "secondary": "Meet Nai-nai",
+      "trust": [
+        "Real-time",
+        "Danmaku Overlay",
+        "Lightweight & Cross-platform"
+      ]
+    },
+    "capabilities": {
+      "eyebrow": "Why Nexia",
+      "title": "More than a translator — a teammate who's got your back.",
+      "body": "Behind every danmaku is Nai-nai typing at lightning speed — four-language simultaneous translation, gaming slang localization — she knows the game as well as you do.",
+      "items": [
+        {
+          "icon": "artifact",
+          "title": "Ultra-low Latency · Near-zero Perception",
+          "body": "The moment a chat message appears, the translated danmaku is already on screen. Built on Tauri + Rust with minimal memory footprint — never costs you a single frame.",
+          "note": "Translation speed < 100ms, zero frame drops"
+        },
+        {
+          "icon": "foundation",
+          "title": "Danmaku Overlay · Stays Out of the Way",
+          "body": "Translations glide across the screen as semi-transparent danmaku. Font size, speed, and color are fully customizable. Never blocks the minimap, never interrupts teamfights.",
+          "note": "Cyan / Magenta / White / Random colors"
+        },
+        {
+          "icon": "agent",
+          "title": "Gaming Slang, Localized",
+          "body": "More than literal translation. Korean 'ㅋㅋㅋ', Japanese 'wwwww', English 'diff' — Nai-nai converts them into expressions you instantly understand, complete with the right tone.",
+          "note": "KR / JP / EN / FR → Chinese + more"
+        }
+      ]
+    },
+    "workflow": {
+      "eyebrow": "Three Steps to Start",
+      "title": "Install. Configure. Play. That's it.",
+      "body": "Nexia runs as a lightweight Tauri desktop app. Auto-detects your LoL client — danmaku translation is ready to go the moment you are.",
+      "steps": [
+        {
+          "icon": "search",
+          "title": "Download & Install",
+          "body": "Grab the installer for your platform from GitHub Releases. One-click setup."
+        },
+        {
+          "icon": "persona",
+          "title": "Pick Your Languages",
+          "body": "Set source and target languages. Tweak danmaku style — size, speed, colors are all yours."
+        },
+        {
+          "icon": "foundation",
+          "title": "Launch the Game",
+          "body": "Start your LoL client. Nexia auto-detects the game process and activates automatically."
+        },
+        {
+          "icon": "assets",
+          "title": "Real-Time Translation",
+          "body": "Every foreign chat message instantly becomes text you can read, gliding across your screen with a neon glow trail."
+        },
+        {
+          "icon": "website",
+          "title": "Adjust on the Fly",
+          "body": "Hotkeys to switch languages, toggle danmaku, adjust opacity — never interrupts your gameplay or vision."
+        },
+        {
+          "icon": "ship",
+          "title": "Focus on Winning",
+          "body": "No more alt-tabbing to translate. Nai-nai handles all communication. You just focus on the game and win."
+        }
+      ]
+    },
+    "architecture": {
+      "eyebrow": "Tech Stack",
+      "titleStart": "Lightweight. Cross-platform.",
+      "titleAccent": "Zero frame drops.",
+      "principles": [
+        {
+          "title": "Tauri 2.0 Desktop Framework",
+          "body": "Rust backend + Web frontend. Small installer, low memory, instant launch."
+        },
+        {
+          "title": "Rust Performance Core",
+          "body": "OCR text capture and translation requests all handled on the Rust side — zero overhead."
+        },
+        {
+          "title": "Canvas / WebGL Danmaku Rendering",
+          "body": "GPU-accelerated overlay rendering. Smooth 60fps danmaku, never stutters."
+        },
+        {
+          "title": "Full Cross-Platform Support",
+          "body": "Windows · macOS · Linux. One codebase, consistent experience."
+        }
+      ],
+      "graphTitle": "Translation Pipeline",
+      "graphAriaLabel": "Game chat → OCR capture → Translation engine → Danmaku rendering → Screen overlay display",
+      "graphLead": "chat",
+      "graphNodes": [
+        "OCR-capture",
+        "translate-engine",
+        "danmaku-render",
+        "screen-overlay",
+        "hotkey-ctrl",
+        "style-config"
+      ],
+      "artifactsTitle": "Tech Components",
+      "artifacts": [
+        "Tauri 2.0 + Rust core",
+        "React + TypeScript frontend",
+        "Canvas/WebGL overlay engine"
+      ]
+    },
+    "gallery": {
+      "eyebrow": "See Nexia in Action",
+      "title": "Not just concepts — every image is an actual generated asset.",
+      "body": "From Nai-nai's foundation sheet to app interface screenshots, everything shown here is real brand output from the Nexia project.",
+      "items": [
+        {
+          "assetSlot": "foundation-art",
+          "title": "Nai-nai Foundation Sheet",
+          "type": "Character Visual Anchor",
+          "ratio": "square"
+        },
+        {
+          "assetSlot": "pattern-tile",
+          "title": "Brand Pattern",
+          "type": "Danmaku + Cross-Language Texture",
+          "ratio": "square"
+        },
+        {
+          "assetSlot": "design-hero-evidence",
+          "title": "In-Game Danmaku Overlay",
+          "type": "Core Feature UI",
+          "ratio": "wide"
+        },
+        {
+          "assetSlot": "design-workflow-evidence",
+          "title": "Settings Panel",
+          "type": "Language & Style Config",
+          "ratio": "wide"
+        }
+      ],
+      "open": "View Full Size"
+    },
+    "cta": {
+      "eyebrow": "Ready to Cross Servers?",
+      "titleStart": "Nai-nai is online.",
+      "titleAccent": "All languages welcome.",
+      "body": "Nexia is in early development. ⭐ Star + 👀 Watch to follow progress. Contributions welcome — let's make Summoner's Rift a place without language barriers, together.",
+      "installCommand": "git clone https://github.com/your-username/nexia.git",
+      "primary": "GitHub Repository",
+      "secondary": "Read the Docs",
+      "copy": "Copy repo URL",
+      "copied": "Copied"
+    },
+    "footer": {
+      "line": "NEXIA Expresses Cross-language Interactions Automatically — GNU-style recursive acronym.",
+      "source": "View source on GitHub"
+    }
+  }
+}

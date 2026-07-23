@@ -1,0 +1,19 @@
+# RepoChan protocol state (local only)
+.repochan/analysis/
+.repochan/interview/
+.repochan/persona/
+.repochan/orders/
+.repochan/web-starter/node_modules/
+.repochan/web-starter/dist/
+
+# Dependencies
+node_modules/
+target/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

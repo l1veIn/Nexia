@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "repochan.starter-site.v1",
+  "project": {
+    "name": "Nexia",
+    "description": "A local-first, agent-agnostic creative production protocol that turns repositories into living visual brands.",
+    "repositoryUrl": "https://github.com/l1veIn/repochan-mono"
+  },
+  "theme": {
+    "primary": "#00d2ff",
+    "base": "#1a1a2e",
+    "ink": "#00d2ff",
+    "accents": [
+      "#0a1a2e",
+      "#003d5c",
+      "#2a2a3e",
+      "#f0f0f5",
+      "#e040fb",
+      "#f5c0ff",
+      "#ff6b35",
+      "#cc5522",
+      "#ffaa77",
+      "#1a1a2e",
+      "#5a5a6e",
+      "#ffffff",
+      "#0a0a14",
+      "#3a3a4e",
+      "#00d2ff"
+    ]
+  },
+  "brand": {
+    "artStyle": "Cel-shaded + Digital Pop — clean flat linework with vibrant neon cyan and magenta accents, danmaku horizontal streak graphics, gaming HUD overlay aesthetic, cozy messy-room warmth in background scenes",
+    "motifs": [
+      "弹幕拖尾轨迹——水平方向划过、带渐隐的彩色线条，象征翻译的速度感和屏幕上的视觉印记",
+      "多语言文字碎片——한 + 漢 + ABC + あ等字符的自然交织，象征语言之间的桥接（Nexus）",
+      "LED青光——来自她的戒指和耳机，是她'工作状态ON'的视觉信号",
+      "X形交叉线——来自名字Nexia中的X，象征跨语言交叉连接（Cross-language），可融入Logo和品牌纹理"
+    ],
+    "patterns": [
+      "弹幕拖尾纹理——水平流动的青色→品红渐变线条，灵感来自弹幕划过屏幕的视觉残留，用于页面分区分隔线和卡片边框装饰",
+      "X形交叉语言纹理——X形线条交织错落，每条线上附着不同语言文字碎片（한 + 漢 + ABC + あ），象征Nexia的Cross-language核心，用于页面分区底纹和品牌物料",
+      "LED光环同心圆纹理——青色同心圆环错位叠加，模拟LED光晕效果，用于社交媒体卡片底纹"
+    ],
+    "palette": [
+      {
+        "name": "cyan",
+        "hex": "#00d2ff",
+        "role": "primary"
+      },
+      {
+        "name": "deep-navy",
+        "hex": "#1a1a2e",
+        "role": "base"
+      },
+      {
+        "name": "magenta",
+        "hex": "#e040fb",
+        "role": "accent"
+      },
+      {
+        "name": "orange",
+        "hex": "#ff6b35",
+        "role": "accent"
+      }
+    ]
+  },
+  "locales": {
+    "default": "en",
+    "supported": [
+      "en",
+      "zh"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "repochan.starter-assets.v1",
+  "assets": {
+    "hero-composite": {
+      "kind": "scalar",
+      "src": "/assets/hero-composite.webp",
+      "status": "customized",
+      "provenance": {
+        "kind": "local-file",
+        "sourcePath": "/tmp/nexia-banner.webp",
+        "sha256": "7fbfd8f44958a762b50c06af6ed80b7ecc76b1d52e642303b9fe6612330c223d"
+      }
+    },
+    "cta-composite": {
+      "kind": "scalar",
+      "src": "/assets/cta-composite.webp",
+      "status": "customized",
+      "provenance": {
+        "kind": "local-file",
+        "sourcePath": "/tmp/nexia-scene-studio.webp",
+        "sha256": "66745b77c15ba3ec8da66641fbba136980949478411d23bcdec72f0613330a1a"
+      }
+    },
+    "pattern-tile": {
+      "kind": "scalar",
+      "src": "/assets/pattern.webp",
+      "status": "customized",
+      "provenance": {
+        "kind": "local-file",
+        "sourcePath": "/tmp/nexia-pattern.webp",
+        "sha256": "7ee6a7be9bef70b340ca3d76e24665aebf66c6671afb9353c9c51adc17d1b5bb"
+      }
+    },
+    "foundation-art": {
+      "kind": "scalar",
+      "src": "/assets/foundation.webp",
+      "status": "customized",
+      "provenance": {
+        "kind": "local-file",
+        "sourcePath": "/tmp/nexia-foundation.webp",
+        "sha256": "76bc8f8ef533d3d86d24d938f8f73a97027cdfcbeafb0de6faf20ebc28d265d7"
+      }
+    },
+    "design-hero-evidence": {
+      "kind": "scalar",
+      "src": "/assets/design-hero.webp",
+      "status": "customized",
+      "provenance": {
+        "kind": "local-file",
+        "sourcePath": "/tmp/nexia-app-overlay.webp",
+        "sha256": "1c797cad14c5dc92186898597aa89273bc819a5e657341f55e0e7d0439590920"
+      }
+    },
+    "design-workflow-evidence": {
+      "kind": "scalar",
+      "src": "/assets/design-workflow.webp",
+      "status": "customized",
+      "provenance": {
+        "kind": "local-file",
+        "sourcePath": "/tmp/nexia-app-settings.webp",
+        "sha256": "5cf859e00a6a47259db26fd2b6543d01c73d7c51f6c4a1c4477cdcbd8c463638"
+      }
+    }
+  }
+}

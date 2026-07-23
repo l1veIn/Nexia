@@ -1,0 +1,209 @@
+{
+  "schemaVersion": "repochan.starter-content.v1",
+  "locale": "zh",
+  "meta": {
+    "title": "Nexia — 跨境游戏陪玩 · 实时翻译弹幕工具",
+    "description": "英雄联盟游戏内实时聊天翻译工具。捕获聊天框内容，即时翻译，以彩色弹幕形式显示。奈奈，你的跨境陪玩翻译官。"
+  },
+  "content": {
+    "routing": {
+      "lang": "zh-CN",
+      "path": "/zh/",
+      "alternatePath": "/",
+      "alternateHreflang": "en"
+    },
+    "a11y": {
+      "skip": "跳到正文",
+      "openMenu": "打开导航",
+      "closeMenu": "关闭导航",
+      "brandHome": "Nexia 首页",
+      "productQualities": "Nexia 功能特性"
+    },
+    "nav": {
+      "ariaLabel": "主导航",
+      "repositoryLabel": "GitHub",
+      "alternateLabel": "EN",
+      "links": [
+        {
+          "label": "功能介绍",
+          "href": "#features"
+        },
+        {
+          "label": "使用方法",
+          "href": "#workflow"
+        },
+        {
+          "label": "技术栈",
+          "href": "#architecture"
+        },
+        {
+          "label": "截图",
+          "href": "#gallery"
+        }
+      ]
+    },
+    "hero": {
+      "imageAlt": "奈奈在游戏屏幕上挥手，弹幕翻译划过画面",
+      "eyebrow": "LoL 跨境游戏陪玩 · 实时翻译弹幕",
+      "titleStart": "跨服开黑，",
+      "titleAccent": "语言再也不是障碍。",
+      "body": "Nexia 捕获游戏内聊天框的每一句话，实时翻译成你的语言，以炫酷弹幕形式飘过屏幕。不需要切出去查翻译，专注赢下这局。奈奈，你的跨境陪玩翻译官，NEXIA Expresses Cross-language Interactions Automatically。",
+      "primary": "GitHub 查看项目",
+      "secondary": "了解奈奈的故事",
+      "trust": [
+        "实时翻译",
+        "弹幕叠加",
+        "轻量跨平台"
+      ]
+    },
+    "capabilities": {
+      "eyebrow": "为什么选择 Nexia",
+      "title": "不只是翻译工具，是和你一起上分的伙伴。",
+      "body": "每一条弹幕背后，都是奈奈在键盘上飞速敲击——四语同传手速，游戏黑话本地化，她懂游戏更懂你。",
+      "items": [
+        {
+          "icon": "artifact",
+          "title": "极低延迟 · 几乎零感知",
+          "body": "聊天消息出现的瞬间，翻译弹幕已经在屏幕上。基于 Tauri + Rust，内存占用极低，绝不拖累你的 FPS。",
+          "note": "翻译速度 < 100ms，游戏不掉帧"
+        },
+        {
+          "icon": "foundation",
+          "title": "弹幕叠加 · 不挡画面",
+          "body": "翻译结果以半透明弹幕划过屏幕，字号、速度、颜色随心调。不遮挡小地图、不干扰团战，优雅融入游戏画面。",
+          "note": "青/品红/白/随机四色可选"
+        },
+        {
+          "icon": "agent",
+          "title": "游戏黑话本地化",
+          "body": "不只是字面翻译。韩服「ㅋㅋㅋ」、日服「wwwww」、美服「diff」——奈奈帮你转换成国服玩家秒懂的等价表达，带语气的那种。",
+          "note": "支持韩/日/英/法 → 简体中文"
+        }
+      ]
+    },
+    "workflow": {
+      "eyebrow": "三步开始使用",
+      "title": "安装、配置、开打。就这么简单。",
+      "body": "Nexia 以 Tauri 桌面应用运行，轻量不打扰。安装后自动检测 LoL 进程，翻译弹幕即开即用。",
+      "steps": [
+        {
+          "icon": "search",
+          "title": "下载安装",
+          "body": "从 GitHub Releases 下载对应平台安装包，一键安装。"
+        },
+        {
+          "icon": "persona",
+          "title": "选择语言",
+          "body": "设置源语言和目标语言，调整弹幕样式——字号、速度、颜色全可定制。"
+        },
+        {
+          "icon": "foundation",
+          "title": "进入游戏",
+          "body": "启动 LoL 客户端，Nexia 自动检测游戏进程，弹幕翻译自动激活。"
+        },
+        {
+          "icon": "assets",
+          "title": "实时翻译",
+          "body": "聊天框每一条外语消息，瞬间变成你认识的文字，以弹幕划过屏幕，带发光拖尾效果。"
+        },
+        {
+          "icon": "website",
+          "title": "随时调整",
+          "body": "游戏内通过快捷键切换语言、开关弹幕、调整透明度，完全不影响操作和视野。"
+        },
+        {
+          "icon": "ship",
+          "title": "专注上分",
+          "body": "不用切出去查翻译了。奈奈帮你搞定所有沟通，你只需要专注操作，赢下这局。"
+        }
+      ]
+    },
+    "architecture": {
+      "eyebrow": "技术栈",
+      "titleStart": "轻量、跨平台、",
+      "titleAccent": "游戏不掉帧。",
+      "principles": [
+        {
+          "title": "Tauri 2.0 桌面框架",
+          "body": "Rust 后端 + Web 前端，安装包小、内存低、启动快。"
+        },
+        {
+          "title": "Rust 性能核心",
+          "body": "OCR 文字捕获和翻译请求处理全部在 Rust 侧完成，零性能损耗。"
+        },
+        {
+          "title": "Canvas / WebGL 弹幕渲染",
+          "body": "基于 GPU 加速的叠加层渲染，弹幕流畅 60fps 不卡顿。"
+        },
+        {
+          "title": "跨平台全支持",
+          "body": "Windows · macOS · Linux 一套代码，体验一致。"
+        }
+      ],
+      "graphTitle": "翻译流水线",
+      "graphAriaLabel": "游戏聊天框 → OCR 捕获 → 翻译引擎 → 弹幕渲染 → 屏幕叠加显示",
+      "graphLead": "chat",
+      "graphNodes": [
+        "OCR-capture",
+        "translate-engine",
+        "danmaku-render",
+        "screen-overlay",
+        "hotkey-ctrl",
+        "style-config"
+      ],
+      "artifactsTitle": "技术组件",
+      "artifacts": [
+        "Tauri 2.0 + Rust core",
+        "React + TypeScript frontend",
+        "Canvas/WebGL overlay engine"
+      ]
+    },
+    "gallery": {
+      "eyebrow": "看看 Nexia 的样子",
+      "title": "不只是概念——每一张都是实际生成的资产。",
+      "body": "从奈奈的设定集到应用界面截图，这里展示的都是 Nexia 的真实品牌产物。",
+      "items": [
+        {
+          "assetSlot": "foundation-art",
+          "title": "奈奈设定集",
+          "type": "角色视觉锚点",
+          "ratio": "square"
+        },
+        {
+          "assetSlot": "pattern-tile",
+          "title": "品牌纹理",
+          "type": "弹幕 + X 形语言纹理",
+          "ratio": "square"
+        },
+        {
+          "assetSlot": "design-hero-evidence",
+          "title": "游戏内弹幕叠加",
+          "type": "核心功能界面",
+          "ratio": "wide"
+        },
+        {
+          "assetSlot": "design-workflow-evidence",
+          "title": "设置面板",
+          "type": "语言与弹幕配置",
+          "ratio": "wide"
+        }
+      ],
+      "open": "查看大图"
+    },
+    "cta": {
+      "eyebrow": "准备好跨服上分了吗",
+      "titleStart": "奈奈在线，",
+      "titleAccent": "语言不限。",
+      "body": "Nexia 目前处于早期开发阶段。⭐ Star + 👀 Watch 关注进展，也欢迎贡献代码——我们一起让召唤师峡谷不再有语言隔阂。",
+      "installCommand": "git clone https://github.com/your-username/nexia.git",
+      "primary": "GitHub 仓库",
+      "secondary": "阅读文档",
+      "copy": "复制仓库地址",
+      "copied": "已复制"
+    },
+    "footer": {
+      "line": "NEXIA Expresses Cross-language Interactions Automatically — 致敬 GNU。",
+      "source": "在 GitHub 查看源码"
+    }
+  }
+}
